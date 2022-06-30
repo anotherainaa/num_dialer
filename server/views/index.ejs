@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Num Dialer from hell</title>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>Phone Number</th>
+        <th>Phone Number status</th>
+      </tr>
+      
+      <% for (number of phoneNumbers){ %>
+        <tr>
+          <td><%= number.phoneNumber %></td>
+          <td><%= number.status %></td>
+        </tr>
+      <% }%> 
+
+    </table>
+    <Button>Call</Button>
+  </body>
+</html>
