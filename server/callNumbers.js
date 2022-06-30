@@ -79,6 +79,11 @@ call array that manages the calls
 [{id: 2345, phone "37246732684", status: "idle"}, {id: 34324, phone "37246732684", status: "ringing"}, {id: 142343, phone "37246732684", status: "idle"},]
 
 
+{
+  callId1: {phoneNum: '342', status: 'sdfadsf'},
+  callId2: ...
+}
+
 */
 }
 
